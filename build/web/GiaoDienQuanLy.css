@@ -1,0 +1,88 @@
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/008/311/935/non_2x/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size:   100% 100%;
+}
+.table-container {
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    background-color: #075aad;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+.table thead th {
+    background-color: #075aad;
+    color: white;
+}
+.table tbody tr:hover td {
+    background-color: #e9ecef;
+}
+.form-container {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    margin-top: 20px;
+}
+.action-buttons {
+    display: flex;
+}
+.action-buttons form {
+    margin-right: 5px;
+}
+.sidebar {
+    background-color: #2A2B41 ;
+    padding: 20px;
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    color: white;
+}
+.sidebar .btn {
+    margin-bottom: 10px;
+}
+.sidebar h1{
+    text-align: center;
+}
+#toggleTableBtn{
+    background-color: #075AAD ;
+}
+#btnShowPhongBan
+{
+    background-color: #075AAD ;
+}
+#btnShowForm
+{
+    background-color: #075AAD ;
+}
+#btnShowLinkEmployee
+{
+    background-color: #075AAD ;
+}
+#btnShowAddPhongBanForm{
+    background-color: #075AAD ;
+}
+#welcomeMessage{
+    color: #e9ecef;
+}
+
+.sidebar h1{
+    margin-bottom: 20px;
+}
+#logoutbutton{
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.hidden {
+    display: none;
+}
